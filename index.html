@@ -25,7 +25,15 @@
             width: 50px;  
             height: auto; 
         }
-        
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color: white;
+        }
+      
         main {
             padding: 20px;
         }
@@ -37,6 +45,12 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+
+        }
+        .nome{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
         }
         .btn {
             background-color: #f47ed4;
@@ -49,6 +63,13 @@
         }
         .btn:hover {
             background-color: #f47ed4;
+        }
+        .input{
+            display:flex;
+            justify-content: center;
+        }
+        main {
+            padding-bottom: 100px; /* Ajuste conforme necessário */
         }
     </style>
 </head>
@@ -75,10 +96,36 @@
     </section>
 
     <button class="btn">Clique aqui para aprender mais!</button>
+
+    <h2>Formulário</h2>
+    <form action="">
+        <label for="usua">Insira seu usuário do Git Hub: 
+        <input type="text" id="usua" name="usuário" class="input">
+        </label>
+        <br>
+        <label for="fun">Insira a sua função (líder/desenvolvedor): 
+        <input type="text" id="fun" name="funcao" class="input">
+        </label>
+        <br>
+        <label for="mod">Insira qual foi a modificação feita no projeto: 
+        <input type="text" id="mod" name="modificacao" class="input">
+        </label>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="button" value="Cancelar">
+    </form>
 </main>
 
 <footer>
     <p>&copy; 2025 Projeto GitHub PR - Todos os direitos reservados.</p>
+    <div class="nome">
+        <p>Bruna Cardoso</p>
+        <p>Caio de Oliveira</p>
+        <p>Gabriel Ferreira</p>
+        <p>Giovanna Nascimento</p>
+        <p>Sophia Ragusa</p>
+    </div>
+
 </footer>
 
 </body>
