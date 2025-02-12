@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de PÃ¡gina HTML</title>
+    <title>Exemplo de Página HTML</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,11 +12,20 @@
             padding: 0;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #f47ed4;
             color: white;
             padding: 15px;
-            text-align: center;
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 20px; 
         }
+        
+        #hello-kitty {
+            width: 50px;  
+            height: auto; 
+        }
+
         a{
             color: black;
             text-decoration: none;
@@ -24,6 +33,7 @@
         a:hover{
             color: white;
         }
+      
         main {
             padding: 20px;
         }
@@ -43,7 +53,7 @@
             justify-content: space-around;
         }
         .btn {
-            background-color: #4CAF50;
+            background-color: #f47ed4;
             color: white;
             padding: 10px 20px;
             border: none;
@@ -52,7 +62,7 @@
             display: inline-block;
         }
         .btn:hover {
-            background-color: #45a049;
+            background-color: #f47ed4;
         }
         .input{
             display:flex;
@@ -67,6 +77,7 @@
 
 <header>
     <h1>Bem-vindo ao Projeto de Pull Request</h1>
+    <img src="Sanrio_Characters_Hello_Kitty_Image026.webp" alt="" id="hello-kitty">
 </header>
 
 <main>
