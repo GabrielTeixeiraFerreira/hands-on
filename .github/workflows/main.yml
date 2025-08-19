@@ -21,9 +21,7 @@ jobs:
        
 		 # Primeiro passo: um nome descritivo.
          - name: Imprime uma mensagem no console
-         
-		   # 'run' executa um comando de linha no terminal do runner.
+		 # 'run' executa um comando de linha no terminal do runner.
            run: echo "Olá, Mundo! Esta é minha primeira GitHub Action!"
-           
          - name: Imprime outra mensagem
            run: echo "Até a próxima automação!"
