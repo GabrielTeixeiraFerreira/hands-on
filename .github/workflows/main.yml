@@ -9,7 +9,7 @@ on: [push]
 # Define os trabalhos (jobs) a serem executados.
 jobs:
 
-	  #0 nome do nosso job. Pode ser qualquer nome.
+	  # 0 nome do nosso job. Pode ser qualquer nome.
     dizer-ola:
     
 		   # Define em qual tipo de máquina (runner) o job vai rodar.
